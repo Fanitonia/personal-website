@@ -9,6 +9,7 @@
     .hello {
         padding: 40px 15px;
     }
+    
     h1 {
         font-size: 60px;
     }
@@ -37,7 +38,7 @@
 
     .details-container{
         order: 1;
-        width: 70%;
+        width: 45%;
         max-width: 550px;
         margin: 0px;
         margin: 15px 0;
@@ -45,6 +46,7 @@
 
     .summary > img {
         margin-bottom: 60px;
+        height: 250px;
     }
 
     /* FOOTER */
