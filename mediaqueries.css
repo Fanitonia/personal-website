@@ -1,13 +1,23 @@
 @media screen and (max-width: 1000px){
 
-    /* NAV-BAR*/
-    .nav-links {
-        font-size: 20px;
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* SIDE NAV BAR */
+    .side-nav-bar {
+        display: none;
     }
 
     /* INTRODUCTION PART */
+    .home-content {
+        flex-direction: column;
+        align-items: center;
+    }
     .hello {
         padding: 40px 15px;
+        margin: 0px;
+        margin-top: 5vh;
     }
     
     h1 {
@@ -29,24 +39,6 @@
 
     .social-media img {
         height: 30px;
-    }
-
-    /* SUMMARY PART*/
-    .summary {
-        flex-direction: column;
-    }
-
-    .details-container{
-        order: 1;
-        width: 45%;
-        max-width: 550px;
-        margin: 0px;
-        margin: 15px 0;
-    }
-
-    .summary > img {
-        margin-bottom: 60px;
-        height: 250px;
     }
 
     /* FOOTER */
