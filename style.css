@@ -1,5 +1,4 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* GENERAL */
@@ -76,12 +75,12 @@ p {
     padding-bottom: 25px;
 }
 
-/* SIDE-NAV-BAR HOVER*/
+/* SIDE-NAV-BAR ANIMATIONS*/
 .side-nav-bar a:hover {
     background-color: rgb(52, 52, 52);
 }
 
-.home-button .experience-btn, .skills-btn, .github, .linkedin, .instagram, .contact-btn, .projects-btn {
+.skills-btn, .github, .linkedin, .instagram, .contact-btn, .projects-btn {
     position: relative;
 }
 .home-btn:hover::after {
@@ -169,7 +168,6 @@ p {
 }
 
 .location p {
-    font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-size: 16px; 
 }
@@ -194,8 +192,9 @@ p {
 /* INTRODUCTION PART */
 .home-content {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     height: 100vh;
+    gap: 10%;
 }
 
 .hello {
@@ -204,7 +203,7 @@ p {
     align-items: center;
     text-align: center;
     margin-left:10%;
-    margin-top: 28vh;
+    margin-bottom: 10vh;
 }
 
 h1 {
@@ -246,6 +245,31 @@ h3 {
 
 .social-media img:hover {
     opacity: 1;
+}
+
+/* ABOUT ME */
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing:border-box;
+    height: auto;
+    min-height: min-content;
+    width: auto;
+    min-width: min-content;
+    max-width: 600px;
+    margin-bottom: 10vh;
+    margin-right: 10% ;
+    align-items: center;
+    text-align:justify
+}
+
+.about-title {
+    font-size: 20px;
+}
+
+.about-content {
+    color: #b5b5b5;
 }
 
 /* FOOTER */
